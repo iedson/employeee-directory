@@ -3,6 +3,8 @@ import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import employees from "./employees.json";
+import EmployeeSearch from "./pages/EmployeeSearch/Search.js";
+
 
 class App extends Component {
   // Setting this.state employees to the employees json array
@@ -34,6 +36,7 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+      
     );
   }
 }
